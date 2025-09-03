@@ -1,4 +1,4 @@
-class Code {
+class HollowRectangle {
     public void hollowRectangle(int toRow, int toCol) {
         for(int i = 1;i<=toRow;i++){
             for (int j = 1; j <= toCol; j++) {
@@ -16,7 +16,7 @@ class Code {
 
 public class ImplementationOfCode {
     public static void main(String[] args) {
-        Code c = new Code();
+        HollowRectangle c = new HollowRectangle();
         c.hollowRectangle(10,5);
         
     }
