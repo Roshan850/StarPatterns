@@ -14,7 +14,7 @@ class Code {
 }
 
 
-public class HollowRectangle {
+public class ImplementationOfCode {
     public static void main(String[] args) {
         Code c = new Code();
         c.hollowRectangle(10,5);
