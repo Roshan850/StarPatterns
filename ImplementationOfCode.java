@@ -17,7 +17,9 @@ class HollowRectangle {
 public class ImplementationOfCode {
     public static void main(String[] args) {
         HollowRectangle c = new HollowRectangle();
-        c.hollowRectangle(10,5);
+        InvertedAndRotatedHalfPyramid i = new InvertedAndRotatedHalfPyramid();
+        // c.hollowRectangle(10, 5);
+        i.invertedAndRotatedHalfPyramid(10);
         
     }
 }
