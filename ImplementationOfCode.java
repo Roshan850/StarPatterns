@@ -19,7 +19,10 @@ public class ImplementationOfCode {
         HollowRectangle c = new HollowRectangle();
         InvertedAndRotatedHalfPyramid i = new InvertedAndRotatedHalfPyramid();
         // c.hollowRectangle(10, 5);
-        i.invertedAndRotatedHalfPyramid(10);
+        // i.invertedAndRotatedHalfPyramid(10);
+        InvertedHalfPyramid n = new InvertedHalfPyramid();
+        n.invertedHalfPyramidNumber(5);
+        n.invertedHalfPyramid(5);
         
     }
 }
